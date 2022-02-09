@@ -20,7 +20,7 @@ if [ "$files" = "0" ]; then
   CHROM=$(echo $NAME | grep -o "_chr[a-zA-Z]\{1\}\|_chr[1-9]\{1,2\}_" | sed "s/_//g")
   
   case "$CHROM" in
-    chr29)  GENOME_SIZE=58205856 ;;
+    chr19)  GENOME_SIZE=58205856 ;;
     chr11)  GENOME_SIZE=118745945 ;;
     chr8)   GENOME_SIZE=125611432 ;;
     chrX)   GENOME_SIZE=163487995 ;;
